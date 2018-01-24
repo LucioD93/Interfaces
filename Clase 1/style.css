@@ -1,0 +1,43 @@
+body {
+	background-color: #003366;
+}
+
+.container {
+	background-color: rgb(255,255,255);
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.main-navbar ul {
+	list-style-type: none;
+	background-color: #FF3300;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+.main-navbar ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.main-navbar ul li:hover {
+	color: #003366;
+	cursor: pointer;
+}
+
+.main-content {
+	float: left;
+}
+
+.footer {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.main-content h1 {
+	color: #FFFFFF;
+	background-color: #FF3300;
+
+}
