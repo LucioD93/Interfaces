@@ -1,0 +1,43 @@
+body {
+	background-color: purple;
+}
+
+.container {
+	background-color: white;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.main-sidebar ul {
+	list-style-type: none;
+	float: left;
+}
+
+.main-sidebar ul li {
+	color: lime;
+}
+
+.main-content {
+	float: left;
+	margin-left: 400px;
+}
+
+.main-content h1{
+	color: lime;
+}
+
+.main-content h4 {
+	color: lime;
+}
+
+.main-content p {
+	background-color: lime;
+	color: white;
+}
+
+.clearfix {
+	content: '';
+	clear: both;
+	display: block;
+}
