@@ -9,9 +9,13 @@ body {
 	padding: 20px;
 }
 
+.inline{
+	display: inline-block;
+	top: 10px;
+}
+
 .main-sidebar ul {
 	list-style-type: none;
-	float: left;
 }
 
 .main-sidebar ul li {
@@ -19,8 +23,6 @@ body {
 }
 
 .main-content {
-	float: left;
-	margin-left: 400px;
 }
 
 .main-content h1{
@@ -34,10 +36,4 @@ body {
 .main-content p {
 	background-color: lime;
 	color: white;
-}
-
-.clearfix {
-	content: '';
-	clear: both;
-	display: block;
 }
